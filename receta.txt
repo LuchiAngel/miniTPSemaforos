@@ -1,0 +1,8 @@
+cortar ajo,perejil,cebolla
+mezclar ajo,perejil,cebolla,carne
+salar mezcla a gusto
+hornear pan
+armar medallones
+planchar medallon
+preparar lechuga,tomate
+terminar hamburguesa
