@@ -293,7 +293,6 @@ void* ejecutarReceta(void *i) {
                                 terminar,            
                                 pthread_data);  
 	                                                                                                                                        
-	//join de todos los hilos
 	pthread_join (p1,NULL);
 	pthread_join (p2,NULL);
 	pthread_join (p3,NULL);
@@ -302,9 +301,7 @@ void* ejecutarReceta(void *i) {
 	pthread_join (p6,NULL);
 	pthread_join (p7,NULL);
 	pthread_join (p8,NULL);
-	//crear join de demas hilos	
-
-	//valido que el hilo se alla creado bien 
+	
     if (rc){
        printf("Error:unable to create thread, %d \n", rc);
        exit(-1);
@@ -325,7 +322,6 @@ void* ejecutarReceta(void *i) {
 	//salida del hilo
 	pthread_exit(NULL);
 }
-
 
 int main (){
 		 
